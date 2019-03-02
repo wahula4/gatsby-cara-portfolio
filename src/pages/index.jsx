@@ -71,18 +71,22 @@ const Index = () => (
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
+            title="Neighborhood Map"
+            link="https://tricky-substance.surge.sh/"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            This project focuses on using React.js, the Google Maps API, and the FourSquare API. The user is
+            shown a map of Charlotte, NC that displays the top 20 pizza places chosen by FourSquare. They can be
+            filtered by name using the side navigation.
           </ProjectCard>
           <ProjectCard
-            title="Harry Potter"
-            link="https://www.behance.net/gallery/52915793/Harry-Potter"
+            title="MyReads Bookshelf"
+            link="https://http://gray-flesh.surge.sh/"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
+            MyReads is a bookshelf React app that allows you to select and categorize books you have read, are currently
+            reading, or want to read. I learned how to manage state and when I should use class components vs stateless functional
+            components. React Router is used to navigate between the homepage, search page, and 404 page.
           </ProjectCard>
           <ProjectCard
             title="Tomb Raider"
