@@ -85,7 +85,7 @@ const Index = () => (
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
             MyReads is a bookshelf React app that allows you to select and categorize books you have read, are currently
-            reading, or want to read. I learned how to manage state and when I should use class components vs stateless functional
+            reading, or want to read. I learned how to manage state and when to use class components vs stateless functional
             components. React Router is used to navigate between the homepage, search page, and 404 page.
           </ProjectCard>
           <ProjectCard
