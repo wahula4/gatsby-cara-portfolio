@@ -81,7 +81,7 @@ const Index = () => (
           </ProjectCard>
           <ProjectCard
             title="MyReads Bookshelf"
-            link="https://http://gray-flesh.surge.sh/"
+            link="https://gray-flesh.surge.sh/"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
             MyReads is a bookshelf React app that allows you to select and categorize books you have read, are currently
@@ -100,7 +100,7 @@ const Index = () => (
             link="https://wahula4.github.io/GiphyAPI/"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            A gif app that uses jQuery and ajax to get data from the Giphy API. Handles user input to update the DOM. The Gifs can be stopped and started by clicking on them.
+            A GIF app that uses jQuery and ajax to get data from the Giphy API. This app updates the DOM based on user input. The GIFs can be stopped and started by clicking on them.
           </ProjectCard>
         </ProjectsWrapper> 
       </Projects>
@@ -109,7 +109,7 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="Tony Wahula" />
           <AboutSub>
-            I focus on writing clean and efficicent code as well as creating a user-friendly expericence with responsive design.
+            I focus on writing clean and efficicent code as well as creating a user-friendly experience with responsive design.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
