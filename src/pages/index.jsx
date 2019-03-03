@@ -113,7 +113,7 @@ const Index = () => (
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          As a web developer my skills include HTML, CSS, and JavaScript. I have expericence with jQuery, React.js and utilizing API's to fetch data. I have a passion for learning and problem solving. When I'm not coding, you can find me playing pick-up soccer, hiking, or winning at Smash Bros. 
+          As a web developer my skills include HTML, CSS, and JavaScript. I have expericence with jQuery, React.js and utilizing API's to fetch data. I have a passion for learning and problem solving. When I'm not coding, you can find me playing pick-up soccer, hiking, or winning at Super Smash Bros. 
         </AboutDesc>
       </About>
       <Contact offset={4}>
