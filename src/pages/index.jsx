@@ -65,7 +65,7 @@ const Index = () => (
         <BigTitle>
           Hello, <br /> I'm Tony Wahula.
         </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <Subtitle>I'm a front-end web developer based in Charlotte, NC.</Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
@@ -89,52 +89,43 @@ const Index = () => (
             components. React Router is used to navigate between the homepage, search page, and 404 page.
           </ProjectCard>
           <ProjectCard
-            title="Tomb Raider"
-            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+            title="Memory Game"
+            link="https://wahula4.github.io/MemoryGame/"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
+            Memory Game is a fun flip card matching game that uses jQuery to manipulate the DOM.
           </ProjectCard>
           <ProjectCard
-            title="Eagle"
-            link="https://www.behance.net/gallery/38068151/Eagle"
+            title="Giphy"
+            link="https://wahula4.github.io/GiphyAPI/"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            A fantasy image manipulation relocating the habitat of wild animals.
+            A gif app that uses jQuery and ajax to get data from the Giphy API. Handles user input to update the DOM. The Gifs can be stopped and started by clicking on them.
           </ProjectCard>
-        </ProjectsWrapper>
+        </ProjectsWrapper> 
       </Projects>
       <About offset={3}>
         <Title>About</Title>
         <AboutHero>
-          <Avatar src={avatar} alt="John Doe" />
+          <Avatar src={avatar} alt="Tony Wahula" />
           <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
+            I focus on writing clean and efficicent code as well as creating a user-friendly expericence with responsive design.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-          make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
-          want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
-          right?
+          As a web developer my skills are include HTML, CSS, and JavaScript. I have expericence with jQuery, React.js and utilizing API's to fetch data. I have a passion for learning and problem solving. When I'm not coding, you can find my playing pick-up soccer, hiking, or winning at Super Smash Bros. 
         </AboutDesc>
       </About>
       <Contact offset={4}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            Say <a href="mailto:mawahula4@gmail.com">Hi</a> or find me on other platforms:{' '}
+            <a href="https://github.com/wahula4">Github</a> &{' '}
+            <a href="https://www.linkedin.com/in/tony-wahula/">LinkedIn</a>
           </ContactText>
         </Inner>
-        <Footer>
-          &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>. Made by{' '}
-          <a href="https://www.lekoarts.de">LekoArts</a>.
-        </Footer>
+        <Footer>&copy; 2019 by Gatsby Starter Portfolio Cara. </Footer>
       </Contact>
     </Parallax>
   </>
